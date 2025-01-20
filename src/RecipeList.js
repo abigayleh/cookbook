@@ -1024,7 +1024,7 @@ const recipes = [
         name: 'Raisin Tea Buns',
         image: 'images/bakery/raisinTeaBuns.jpg',
         title: 'bakery',
-        subtitle: 'Bread',
+        subtitle: 'Desserts',
         ingrediants: [
           { name: 'flour', quantity: '3 cups' },
           { name: 'white sugar', quantity: '3/4 cups' },
@@ -1047,7 +1047,7 @@ const recipes = [
         name: 'Brownies',
         image: 'images/bakery/brownies.webp',
         title: 'bakery',
-        subtitle: 'Bread',
+        subtitle: 'Desserts',
         ingrediants: [
           { name: 'butter', quantity: '1/2 cup' },
           { name: 'white sugar', quantity: '1 cup' },
@@ -1070,7 +1070,7 @@ const recipes = [
         name: 'Chocolate Chips Cookies',
         image: 'images/bakery/cookies.jpg',
         title: 'bakery',
-        subtitle: 'Bread',
+        subtitle: 'Desserts',
         ingrediants: [
           { name: 'butter', quantity: '1 cup' },
           { name: 'white sugar', quantity: '1 cup' },
@@ -1095,7 +1095,7 @@ const recipes = [
         name: 'Sweet Potato Pie',
         image: 'images/bakery/sweetPotatoPie.webp',
         title: 'bakery',
-        subtitle: 'Bread',
+        subtitle: 'Desserts',
         ingrediants: [
           { name: 'sweet potato', quantity: '3' },
           { name: 'butter', quantity: '1/2 cup' },
@@ -1120,7 +1120,7 @@ const recipes = [
         name: 'Chocolate Cake',
         image: 'images/bakery/chocolateCake.webp',
         title: 'bakery',
-        subtitle: 'Bread',
+        subtitle: 'Desserts',
         ingrediants: [
           { name: 'flour', quantity: '2 cups' },
           { name: 'sugar', quantity: '2 cups' },

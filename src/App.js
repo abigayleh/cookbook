@@ -70,6 +70,9 @@ export default function App() {
 
   const navigate = useNavigate();
   useEffect(() => {
+    if (location.pathname === "/") {
+      navigate("/side")
+    }
     const params = new URLSearchParams(location.search);
     setRecipe(params.get('recipe'))
     
