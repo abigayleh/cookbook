@@ -88,7 +88,7 @@ export default function App() {
     } else {
       setSearchResult(results);
     }
-  }, [search, location])
+  }, [search, location, navigate])
 
   return (
     <Box sx={{ flexGrow: 1 }}>
