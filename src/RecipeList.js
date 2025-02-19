@@ -252,6 +252,24 @@ const recipes = [
           'Roll into 12 balls, put cubed mozerella into each',
           'Fry three times until crispy'
         ],
+      },
+      {
+        id: 13,
+        name: 'Mozza sticks',
+        title: 'side',
+        image: 'images/side/mozzaStick.jpg',
+        ingrediants: [
+          { name: 'eggs', quantity: '2' },
+          { name: 'water', quantity: '1/4 cup' },
+          { name: 'bread crumbs', quantity: '1.5 cups' },
+          { name: 'garlic salt', quantity: '1 tsp' },
+          { name: 'flour', quantity: '2/3 cups' },
+          { name: 'cornstarch', quantity: '1/3 cup' },
+        ],
+        steps: [
+          'Mix bread crumbs and garlic salt in one bowl, flour and cornstarch in another, water and eggs in a third',
+          'Dip mozza stick into flour, egg then breadcrumbs. Cook in oil for 30 seconds',
+        ],
       }
     ]
   },
@@ -852,6 +870,26 @@ const recipes = [
           'Combine sauce, coat chicken with sauce'
         ],
       },
+      {
+        id: 25,
+        name: 'Udon Noodles',
+        image: 'images/main/usonNoodle.jpg',
+        title: 'main',
+        subtitle: 'Asian Dishes',
+        ingrediants: [
+          { name: 'minced garlic', quantity: '1 tbsp' },
+          { name: 'sesame oil', quantity: '2 tbsp'},
+          { name: '멸치액젓', quantity: '1.5 tbsp' },
+          { name: 'sugar', quantity: '2 tbsp' },
+          { name: 'soy sauce', quantity: '1 tbsp' },
+          { name: '맛술', quantity: '2 tbsp' },
+        ],
+        steps: [
+          'Cook meat with seasoning and cook udon noodles',
+          'Cut up green onion, chives and seaweed. Top the noodles with 1/4 green onion, 1/4 chives, 1/4 meat, 1/4 seeweed and an egg yolk in the middle',
+          'Mix together 1 spoon of soy sauce, 며ㄹ치액젓, 올리고당, and 2 spoons of water. Pour on top.'
+        ],
+      },
     ]
   },
   {
@@ -1141,6 +1179,25 @@ const recipes = [
           'Pour into cake pans and bake for 30-35 minutes',
           'Make icing by combing 1 1/2 byutter, 1 cup cocoa powder, 5 cups of powdered sugar, 1/2 cup of milk, 2 tsp vanilla and 1/2 tsp of espresso powder',
           'Ice cake when cooled'
+        ],
+      },
+      {
+        id: 12,
+        name: 'Vanilla Mug Cake',
+        image: 'images/bakery/mugCake.jpg',
+        title: 'bakery',
+        subtitle: 'Desserts',
+        ingrediants: [
+          { name: 'flour', quantity: '4 tablespoons' },
+          { name: 'sugar', quantity: '2 tablespoons' },
+          { name: 'baking powder', quantity: '1/2 teaspoon' },
+          { name: 'milk', quantity: '4 tablespoons' },
+          { name: 'vanilla', quantity: '1/4 teaspoon' },
+          { name: 'oil', quantity: '1.5 tablespoons' },
+        ],
+        steps: [
+          'Mix everything together',
+          'Microwave for 45-60 seconds',
         ],
       },
     ]
