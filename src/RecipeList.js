@@ -1173,6 +1173,149 @@ const recipes = [
           'Coat chicken in sauce'
         ],
       },
+      {
+        id: 35,
+        name: 'Korean Ground Beef Rice Bowl',
+        image: 'images/main/koreanGroundBeef.jpg',
+        title: 'main',
+        subtitle: 'Asian Dishes',
+        ingrediants: [
+          { name: 'ground beef', quantity: '1 lb' },
+          { name: 'garlic', quantity: '5' },
+          { name: 'ginger', quantity: '1 tbsp' },
+          { name: 'sesame oil', quantity: '2 tsp' },
+          { name: 'soy sauce', quantity: '1/2 cup' },
+          { name: 'brown sugar', quantity: '1/3 cup' },
+          { name: 'red pepper flakes', quantity: '1 tsp' },
+          { name: 'green onion', quantity: '6' },
+          { name: 'sesame seeds', quantity: '' }
+        ],
+        steps: [
+          'Combine everything',
+          'Add to rice'
+        ],
+      },
+      {
+        id: 36,
+        name: 'Chicken Katsudon',
+        image: 'images/main/chickenKatsudon.jpg',
+        title: 'main',
+        subtitle: 'Asian Dishes',
+        ingrediants: [
+          { name: 'chicken', quantity: '' },
+          { name: 'onion', quantity: '1/2' },
+          { name: 'eggs', quantity: '2' },
+          { name: 'dashi', quantity: '2/3 cup' },
+          { name: '맛술', quantity: '2 tbsp' },
+          { name: 'soy sauce', quantity: '2 tbsp' },
+          { name: 'sugar', quantity: '1 tbsp' },
+        ],
+        steps: [
+          'Coat chicken in flour, then egg, then panko',
+          'Cook chicken in oil',
+          'Add onion to pan with seasoning',
+          'Once the onions are cooked, place the chicken on top and pour the slightly beaten eggs around them',
+          'Cover until eggs are cooked, top with green onion'
+        ],
+      },
+      { 
+        id: 37,
+        name: 'Chicken and Egg Rice Bowl',
+        image: 'images/main/oyakodon.jpg',
+        title: 'main',
+        subtitle: 'Asian Dishes',
+        ingrediants: [
+          { name: 'chicken', quantity: '' },
+          { name: 'onion', quantity: '1/2' },
+          { name: 'eggs', quantity: '3' },
+          { name: '맛술', quantity: '1 tbsp' },
+          { name: 'dashi', quantity: '1/2 cup' },
+          { name: 'soy sauce', quantity: '2 tbsp' },
+          { name: '맛술', quantity: '2 tbsp' },
+          { name: 'sugar', quantity: '1 tbsp' },
+        ],
+        steps: [
+          'Cut up chicken and coat with 1 tbsp of 맛술',
+          'Mix seasoning together',
+          'Add onion and seasoning to the pan, add chicken on top',
+          'Increase the heat to medium, pour 2/3 of the slightly beaten eggs to the middle of the pan',
+          'Add the remaining eggs and top with green onion'
+        ],
+      },
+      { 
+        id: 38,
+        name: 'Mapo Tofu',
+        image: 'images/main/mapoTofu.jpg',
+        title: 'main',
+        subtitle: 'Asian Dishes',
+        ingrediants: [
+          { name: 'ground pork', quantity: '' },
+          { name: 'garlic', quantity: '2' },
+          { name: 'ginger', quantity: '1 tbsp' },
+          { name: 'green onion', quantity: '2' },
+          { name: 'tofu', quantity: '14 oz' },
+          { name: 'spicy chili bean paste', quantity: '3 tbsp' },
+          { name: 'oyster sauce', quantity: '1 tbsp' },
+          { name: 'miso', quantity: '1 tbsp' },
+          { name: 'soy sauce', quantity: '1 tbsp' },
+          { name: '맛술', quantity: '2 tbsp' },
+          { name: 'sesame oil', quantity: '1 tsp' },
+          { name: 'cornstarch', quantity: '1 tsp' },
+          { name: 'water', quantity: '4 tbsp' },
+        ],
+        steps: [
+          'Cook garlic and ginger in oil',
+          'Add the ground pork until cooked',
+          'Add the sauce',
+          'Add the tofu',
+          'Add green onion'
+        ],
+      },
+      { 
+        id: 39,
+        name: 'Beef and Egg Rice Bowl',
+        image: 'images/main/tanindon.jpg',
+        title: 'main',
+        subtitle: 'Asian Dishes',
+        ingrediants: [
+          { name: 'thin beef', quantity: '' },
+          { name: 'onion', quantity: '1/2' },
+          { name: 'eggs', quantity: '2' },
+          { name: 'green onion', quantity: '1' },
+          { name: 'dashi', quantity: '1/2 cup' },
+          { name: 'soy sauce', quantity: '3 tbsp' },
+          { name: '맛술', quantity: '3 tbsp' },
+          { name: 'sugar', quantity: '2 tbsp' },
+        ],
+        steps: [
+          'Add the sauce to a pan',
+          'Add the onions and cook until soft',
+          'Add the beef and cover until cooked',
+          'Drizzle beaten eggs over the beef, top with green onion and cover until cooked',
+        ],
+      },
+      { 
+        id: 40,
+        name: 'Beef Rice Bowl',
+        image: 'images/main/gyudon.jpg',
+        title: 'main',
+        subtitle: 'Asian Dishes',
+        ingrediants: [
+          { name: 'thin beef', quantity: '' },
+          { name: 'onion', quantity: '1/2' },
+          { name: 'green onion', quantity: '1' },
+          { name: 'dashi', quantity: '1/2 cup' },
+          { name: 'soy sauce', quantity: '3 tbsp' },
+          { name: '맛술', quantity: '3 tbsp' },
+          { name: 'sugar', quantity: '1 tbsp' },
+        ],
+        steps: [
+          'Add the sauce to a pan',
+          'Add the onions and cook until soft',
+          'Add the beef and cover until cooked',
+          'Top with green onion and cover until cooked',
+        ],
+      },
     ]
   },
   {
@@ -1484,7 +1627,64 @@ const recipes = [
         ],
       },
     ]
-  }
+  },
+  {
+    id: 4,
+    name: 'Smoothies',
+    list: [
+      {
+        id: 1,
+        name: 'Green smoothie',
+        image: 'images/smoothies/greenSmoothie.jpg',
+        title: 'smoothies',
+        subtitle: 'Healthy',
+        ingrediants: [
+          { name: 'spinach', quantity: '1 cup' },
+          { name: 'banana', quantity: '1/2' },
+          { name: 'pineapple', quantity: '1/2 cup' },
+          { name: 'mango', quantity: '1/2 cup' },
+          { name: 'almond milk', quantity: '1/2 cup' },
+        ],
+        steps: [
+          'Mix everything together'
+        ],
+      },
+      {
+        id: 2,
+        name: 'Berry smoothie',
+        image: 'images/smoothies/berrySmoothie.jpg',
+        title: 'smoothies',
+        subtitle: 'Healthy',
+        ingrediants: [
+          { name: 'beet', quantity: '1/2' },
+          { name: 'blueberries', quantity: '1/2 cup' },
+          { name: 'strawberries', quantity: '1/2 cup' },
+          { name: 'banana', quantity: '1/2' },
+          { name: 'almond milk', quantity: '3/4 cup' },
+        ],
+        steps: [
+          'Mix everything together'
+        ],
+      },
+      {
+        id: 3,
+        name: 'Carrot cake smoothie',
+        image: 'images/smoothies/carrotSmoothie.jpg',
+        title: 'smoothies',
+        subtitle: 'Healthy',
+        ingrediants: [
+          { name: 'carrots', quantity: '1/2 cup' },
+          { name: 'banana', quantity: '1/2' },
+          { name: 'pineapple', quantity: '1/2 cup' },
+          { name: 'cinnamon', quantity: '1/2 tsp' },
+          { name: 'almond milk', quantity: '3/4 cup' },
+        ],
+        steps: [
+          'Mix everything together'
+        ],
+      },
+    ]
+  },
 ]
 
 export default recipes;

@@ -25,8 +25,10 @@ export default function App() {
       setRecipe(recipes[0].list.filter((r) => r.name === recipeName)[0]);
     } else if (location.pathname.includes('/main')) {
       setRecipe(recipes[1].list.filter((r) => r.name === recipeName)[0]);
-    } else {
+    } else if (location.pathname.includes('/bakery')){
       setRecipe(recipes[2].list.filter((r) => r.name === recipeName)[0]);
+    } else {
+      setRecipe(recipes[3].list.filter((r) => r.name === recipeName)[0]);
     }
   }, [location]);
 
@@ -166,7 +168,7 @@ export default function App() {
                 ))}
               </Box>
             </Box>
-          ) : (
+          ) : location.pathname.includes('/bakery') ? (
             <Box sx={{ paddingRight: "20px", textAlign: "end" }}>
               <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }}>
                 {recipes[2].list.filter((r) => r.name !== recipe.name && recipe.subtitle === r.subtitle).map((recipe) => (
@@ -183,7 +185,22 @@ export default function App() {
                 ))}
               </Box>
             </Box>
-          )}
+          ) : <Box sx={{ paddingRight: "20px", textAlign: "end" }}>
+              <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }}>
+                {recipes[3].list.filter((r) => r.name !== recipe.name && recipe.subtitle === r.subtitle).map((recipe) => (
+                  <Box onClick={() => navigate(`/smoothies?recipe=${recipe.name}`)} sx={{ backgroundColor: "white", borderRadius: "6px", maxWidth: "150px", margin: "14px", display: "flex", flexDirection: "column", cursor: "pointer", '&:hover': {
+                      textDecoration: "underline"
+                    } }}>
+                    <img 
+                      src={recipe.image} 
+                      alt={recipe.name}
+                      style={{ width: "200px", height: "150px", borderRadius: "6px" }} 
+                    />
+                    <Typography sx={{ fontWeight: "bold", textWrap: "wrap", textAlign: "center", cursor: "pointer", padding: "2px" }}>{recipe.name}</Typography>
+                  </Box>
+                ))}
+              </Box>
+            </Box>}
         </List>
       </Box>
     </Box>

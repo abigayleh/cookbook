@@ -127,6 +127,15 @@ export default function App() {
             >
               <Link to="/bakery">Bakery 🍪</Link>
             </IconButton>
+            <IconButton
+              size="small"
+              edge="start"
+              color="inherit"
+              aria-label="open drawer"
+              sx={{ mr: 2, fontWeight: location.pathname.includes('/smoothies') ? "bold" : "" }}
+            >
+              <Link to="/smoothies">Smoothies 🥤</Link>
+            </IconButton>
           </Box>
           <Search>
             <SearchIconWrapper>
